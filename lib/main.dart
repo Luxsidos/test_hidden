@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:test_for_hidden/presentation/home_page.dart';
+import 'package:test_for_hidden/presentation/multi_image.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: HomePage(),
+      home: MultiImagePage(),
     );
   }
 }
